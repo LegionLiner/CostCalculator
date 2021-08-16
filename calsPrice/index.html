@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+    <div class="calc">
+      <p>Вес (кг)</p>
+      <input type="text" value="10" class="weight">
+      <p>Объем (куб<sup>2</sup>)</p>
+      <input type="text" value="5" class="volume">
+      <div class="buttons">
+        <input type="checkbox" value="false" id="but1">
+        <label for="but1">Нужна погрузка</label> <br>
+        <input type="checkbox" value="false" id="but2">
+        <label for="but2">Доставка до места</label> <br>
+        <input type="checkbox" value="false" id="but3">
+        <label for="but3">Хрупкий груз</label>
+      </div>
+      <p>Расстояние (км)</p>
+      <input type="range" min="0" max="5000" step="10" value="">
+      <p text></p> <br>
+      <p result></p>
+    </div>
+    <script src="chapOne.js" charset="utf-8"></script>
+  </body>
+</html>
